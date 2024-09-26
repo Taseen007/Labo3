@@ -16,4 +16,15 @@ public class NumWordPrinter {
         }
 
     }
+
+    public String printWordCap(int n) {
+        return printWord(n).toUpperCase();
+    }
+
+    public static void main(String[] args) {
+        NumWordPrinter printer = new NumWordPrinter();
+        System.out.println(printer.printWord(1));
+        System.out.println(printer.printWordCap(2));
+    }
+
 }
